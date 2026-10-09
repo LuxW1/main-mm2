@@ -7,9 +7,11 @@
 
 -- 1. carti-mm2
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuxW1/carti-mm2/refs/heads/main/carti.lua"))()
+print("loaded carti")
 
 -- 2. Avatar changer
 loadstring(game:HttpGet("https://pastebin.com/raw/aBf27cKC"))()
+print("loaded avatar changer")
 
 -- 3. Move specific character items → LocalWearer_LocalTryOn
 --[[
