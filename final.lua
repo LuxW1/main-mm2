@@ -18,7 +18,7 @@ print("loaded avatar changer")
     Move specific character items → LocalWearer_LocalTryOn
     Works for the local player (or hardcode a username if needed)
 ]]
-
+print("waiting 10 seconds")
 wait(10.0)
 
 local Players = game:GetService("Players")
