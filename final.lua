@@ -16,6 +16,9 @@ loadstring(game:HttpGet("https://pastebin.com/raw/aBf27cKC"))()
     Move specific character items → LocalWearer_LocalTryOn
     Works for the local player (or hardcode a username if needed)
 ]]
+
+wait(10.0)
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
